@@ -81,6 +81,12 @@
 
     </section>
 
+    <section class="about-img">
+        <img src="images/portfolio1.png">
+        <img src="images/Portfolio2.jpg">
+        <img src="images/portfolio3.jpg">
+    </section>
+
     <!--Services Section Design-->
     <section class="knowledge" id="knowledge">
         <h2 class="heading">Conocimientos & <span>Experiencia</span></h2>
@@ -126,40 +132,37 @@
     <section class="projects" id="projects">
         <h2 class="heading">Proyectos <span> Recientes</span></h2>
 
-        <h3 class="subheading">Nada que ver por ahora</h2>
 
-
-<!--    <div class="portfolio-container">
+<div class="portfolio-container">
            
-            <div class="portfolio-box">
-                <img src="images/portfolio1.jpg" alt="" >
-                <div class="portfolio-layer">
-                    <h4>Soon</h4>
-                    <p>Coming Soon!</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/portfolio2.jpg" alt="" >
-                <div class="portfolio-layer">
-                    <h4>Soon</h4>
-                    <p>Coming Soon!</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/portfolio3.jpg" alt="" >
-                <div class="portfolio-layer">
-                    <h4>Soon</h4>
-                    <p>Coming Soon!</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-            
+    <div class="portfolio-box">
+        <img src="images/comingsoon.jpg" alt="" >
+        <div class="portfolio-layer">
+            <h4>Pronto</h4>
+            <p>Proximamente!</p>
+            <a href="#"><i class='bx bx-link'></i></a>
         </div>
--->    
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/meblis.jpg" alt="" >
+        <div class="portfolio-layer">
+            <h4>Meblis</h4>
+            <p>Hazme Click!</p>
+            <a href="https://meblis.es/" target="_blank"><i class='bx bx-link'></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/comingsoon.jpg" alt="" >
+        <div class="portfolio-layer">
+            <h4>Pronto</h4>
+            <p>Proximamente!</p>
+            <a href="#"><i class='bx bx-link'></i></a>
+        </div>
+    </div>
+            
+        </div>    
     </section>
 
 
@@ -168,16 +171,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contacta <span>Conmigo</span></h2>
     
-        <form  onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formsubmit.co/carlosgranjacarrasco@email.com" method="POST" />>
             <div class="input-box">
-                <input type="text" id="name" placeholder="Nombre Completo">
-                <input type="email" id="email" placeholder="Correo Electrónico" required>
+                <input type="text" name="Nombre" id="name" placeholder="Nombre Completo">
+                <input type="email" name="Email" id="email" placeholder="Correo Electrónico" required>
             </div>
             <div class="input-box">
-                <input type="number" id="phone" placeholder="Número de Tetéfono">
-                <input type="text" id="subject" placeholder="Asunto"required>
+                <input type="number" name="Teléfono" id="phone" placeholder="Número de Tetéfono">
+                <input type="text" name="Asunto " id="subject" placeholder="Asunto"required>
             </div>
-            <textarea name="" id="message" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
+            <textarea name="Mensaje" id="message" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
             <input type="submit" value="Enviar" class="btn">
         </form>
     </section>

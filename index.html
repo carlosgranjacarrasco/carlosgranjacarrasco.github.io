@@ -78,6 +78,12 @@
 
     </section>
 
+    <section class="about-img">
+        <img src="images/portfolio1.png">
+        <img src="images/Portfolio2.jpg">
+        <img src="images/portfolio3.jpg">
+    </section>
+
     <!--Services Section Design-->
     <section class="knowledge" id="knowledge">
         <h2 class="heading">Knowledge & <span>Experience</span></h2>
@@ -123,13 +129,11 @@
     <section class="projects" id="projects">
         <h2 class="heading">Latest <span> Projects</span></h2>
 
-        <h3 class="subheading">Nothing to see here yet!</h2>
 
-
-<!--    <div class="portfolio-container">
+<div class="portfolio-container">
            
             <div class="portfolio-box">
-                <img src="images/portfolio1.jpg" alt="" >
+                <img src="images/comingsoon.jpg" alt="" >
                 <div class="portfolio-layer">
                     <h4>Soon</h4>
                     <p>Coming Soon!</p>
@@ -138,16 +142,16 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio2.jpg" alt="" >
+                <img src="images/meblis.jpg" alt="" >
                 <div class="portfolio-layer">
-                    <h4>Soon</h4>
-                    <p>Coming Soon!</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
+                    <h4>Meblis</h4>
+                    <p>Click Me!</p>
+                    <a href="https://meblis.es/" target="_blank"><i class='bx bx-link'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio3.jpg" alt="" >
+                <img src="images/comingsoon.jpg" alt="" >
                 <div class="portfolio-layer">
                     <h4>Soon</h4>
                     <p>Coming Soon!</p>
@@ -156,7 +160,7 @@
             </div>
             
         </div>
--->    
+    
     </section>
 
 
@@ -165,16 +169,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
     
-        <form  onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formsubmit.co/carlosgranjacarrasco@email.com" method="POST" />>
             <div class="input-box">
-                <input type="text" id="name" placeholder="Full Name">
-                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" name="Nombre" id="name" placeholder="Full Name">
+                <input type="email" name="Email" id="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" id="phone" placeholder="Mobile Number">
-                <input type="text" id="subject" placeholder="Email Subject"required>
+                <input type="number" name="Teléfono" id="phone" placeholder="Mobile Number">
+                <input type="text" name="Asunto" id="subject" placeholder="Email Subject"required>
             </div>
-            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <textarea name="Mensaje" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
